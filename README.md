@@ -37,6 +37,13 @@ r"{^\\n\\n^}"
 r" \"(.*?)\{@CAPWORD\(LASTWORD\)\}\""
 r" \"{\*-|}\\1\""
 
+# Plover doesn't have a way to 'skip' a space, so SECONDSPACE is identical to FIRSTSPACE instead of replacing the second-to-last hyphen with a space. Requires plover_retro_text_transform
+r"\{@HYPHENATE\(FIRSTSPACE\)\}"
+r"{:retro_replace_space:1:-}"
+
+r"\{@HYPHENATE\(SECONDSPACE\)\}"
+r"{:retro_replace_space:1:-}"
+
 # Plover style is single-spaced. Convert double spaces to single spaces.
 r"\u00a0 "
 r"\u00a0"

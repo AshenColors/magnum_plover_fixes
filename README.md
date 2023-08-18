@@ -45,6 +45,9 @@ r"\{@HYPHENATE\(SECONDSPACE\)\}"
 r"{:retro_replace_space:1:-}"
 
 # Plover style is single-spaced. Convert double spaces to single spaces.
+r" \}"
+r"}"
+
 r"\u00a0 "
 r"\u00a0"
 

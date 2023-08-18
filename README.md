@@ -33,6 +33,10 @@ r"{^\\n\\n^}A. "
 r"\{P .*?\}"
 r"{^\\n\\n^}"
 
+# Convert DigitalCAT macros.
+r"\{@CAPWORD(LASTWORD)\}"
+r"{\*-|}"
+
 # Plover style is single-spaced. Convert double spaces to single spaces.
 r"\u00a0 "
 r"\u00a0"

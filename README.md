@@ -1,5 +1,9 @@
 # magnum_plover_fixes
-A set of transformations to make the Magnum Steno .rtf dictionary work with Plover CAT software better.
+Below is a set of transformations to make the Magnum Steno .rtf dictionary work with Plover CAT software better.
+
+magnum_fixes.json is a working dictionary of fixes that aren't systematic and can't be applied this way.
+
+commands.json is an original file of mine that provides various Plover and formatting commands and ideally should not conflict too much with Magnum.
 
 TODO: Make a Python script that applies these transformations.
 

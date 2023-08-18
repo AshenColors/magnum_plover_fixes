@@ -1,0 +1,9 @@
+{
+"STPH": "{?}",
+"SPA*EUS": "{^ ^}",
+"SP*": "{^^}",
+"P-P": "{.}",
+"H-F": "{:retro_replace_space:1:-}",
+"H-P": "{:retro_replace_space:1:-}",
+"-FPLT": "{.}"
+}

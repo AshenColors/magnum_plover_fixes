@@ -21,13 +21,13 @@ r"\\n\\nQ"
 r"\\n\\nQ. "
 
 r"\{\^\\n\\n\^\}Q"
-r"\{\^\\n\\n\^\}Q. "
+r"{^\\n\\n^}Q. "
 
 r"\\n\\nA"
 r"\\n\\nA. "
 
 r"\{\^\\n\\n\^\}A"
-r"\{\^\\n\\n\^\}A. "
+r"{^\\n\\n^}A. "
 
 # Plover style is single-spaced. Convert double spaces to single spaces.
 r"\u00a0 "

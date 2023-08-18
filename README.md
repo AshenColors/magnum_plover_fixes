@@ -29,6 +29,10 @@ r"\\n\\nA. "
 r"\{\^\\n\\n\^\}A"
 r"{^\\n\\n^}A. "
 
+# Paragraph styles don't exist in Plover. Replace with double newline to be consistent with Q/A.
+r"\{P .*?\}"
+r"{^\\n\\n^}"
+
 # Plover style is single-spaced. Convert double spaces to single spaces.
 r"\u00a0 "
 r"\u00a0"
